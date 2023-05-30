@@ -1,32 +1,31 @@
-import { useState } from 'react';
+import React from 'react';
 import "../Description/Description.css"
 
-const CoachDescription: React.FC = () => {
-    const [name, setName] = useState<string>("Claudio aka Smoke");
-    const [age, setAge] = useState<number>(25);
-    const [game, setGame] = useState<string>("League of Legends");
-    const [experience, setExperience] = useState<number>(3);
-    const [bestPicks, setBestPicks] = useState<string[]>(
-        ["Alistar", "Thresh", "Blitz", "Renata", "Kalista"]
-    );
-    const [sessionPlan, setSessionPlan] = useState<string[]>(
-        ["Wave Management", "Spacing", "Trading", "General Macro", "Vision Control", "Builds", "Matchups"]
-    );
+interface CoachProps {
+  name: string;
+  age: number;
+  game: string;
+  experience: number;
+  bestPicks: string[];
+  sessionPlan: string[];
+  sessionDetails: string[];
+}
 
+const CoachDescription: React.FC<CoachProps> = (props) => {
     return (
         <div>
-            <h1>Description</h1>
-            <p>Hi guys, I'm {name} and I'm {age}!! I've always been passionate about video games, especially {game}. 
-            I have {experience} years of full time coaching experience.</p>
-            <p>My best picks are {bestPicks.join(", ")}.</p>
-            <p>In my coaching plan you will learn and quickly become better at: {sessionPlan.join(", ")}</p>
+            <p className='description'>Description</p>
+            <div className='descriptionContent'>
+            <p className='first'>Hi guys, I'm {props.name} and I'm {props.age}!! I've always been passionate about video games, especially {props.game}. 
+            I started at the end of S4, reaching Master elo in s10-11-12 as support (atm MASTER 208lp).</p>
+            <p>I have 3 years of full time coaching experience. I have been playing competitive League of Legends for 6years on EUW reaching PG Nats 2° Div.</p>
+            <p>Ranking Master as a Support main, being able to climb to high diamond in every single role</p>
+            <p>My best picks are {props.bestPicks.join(", ")}.</p>
+            <p>In my coaching plan you will learn and quickly become better at:</p>
+            <p>{props.sessionPlan.join(", ")}</p>
             <p>What does one full session entail?</p>
-            <ol>
-                <li>Pre-game discussion - skill, desired rank (w/ op.gg)</li>
-                <li>Live game commentating</li>
-                <li>VOD Review Analysis</li>
-                <li>Post game talk.</li>
-            </ol>
+            {props.sessionDetails.map((detail, index) => <p key={index}>{index+1}-{detail}</p>)}
+            </div>
         </div>
     );
 }

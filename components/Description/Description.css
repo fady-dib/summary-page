@@ -2,3 +2,16 @@ body{
     font-family: 'Ubuntu', sans-serif;
     color: white;
 }
+
+.description{
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.first{
+    margin-bottom: 25px;
+}
+
+.descriptionContent{
+    font-size: 14px
+}

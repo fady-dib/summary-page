@@ -13,6 +13,8 @@ body {
 .col-1{
     display: flex;
     flex-direction: column;
+    width: 704px;
+    height: 396px
 }
 
 .div-img{
