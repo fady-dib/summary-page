@@ -1,6 +1,7 @@
 import React from "react";
 import "../summary/summary.css"
 import Description from "../../components/Description/Description";
+import Payment from "@/components/payment/payment";
 
 const Summary: React.FC = () => {
 
@@ -20,10 +21,11 @@ const Summary: React.FC = () => {
                         "VOD Review Analysis",
                         "Post game talk."
                     ]}></Description>
+
             </div>
 
             <div className="col-2">
-
+                <Payment></Payment>
             </div>
         </div>
     )

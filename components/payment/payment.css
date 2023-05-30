@@ -1,0 +1,94 @@
+.payment-container {
+    width: 400px;
+    height: 907px;
+    border: 1px solid #2F384C;
+    border-radius: 8px;
+    margin-left: 40px;
+}
+
+.div-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 33px;
+
+
+}
+
+.coaching {
+    width: 65.53px;
+    height: 16px;
+    border: 1px solid #60759F;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coaching-text {
+    color: #60759F;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.master {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.plan {
+    color: #95ACDA;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.radio {
+    padding: 17.25px 17px;
+    border: 1px solid #2F384C;
+    border-radius: 8px;
+    height: 133px;
+    margin-bottom: 7.5px;
+    display: flex;
+    gap: 16px;
+    justify-content:center;
+    align-items: center;
+}
+
+.div-1 {
+    width: 334px;
+}
+
+.div-2 {
+    width: 334px;
+}
+
+.div-1 p {
+    width: 317px;
+    margin-bottom: 30px
+}
+
+.label-1 {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.label-2{
+    font-size: 13px;
+    color: #95ACDA;
+}
+
+.label{
+    padding-right: 18px;
+}
+
+.label-2 span{
+    color: #00F9FF
+
+}

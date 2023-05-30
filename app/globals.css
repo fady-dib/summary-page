@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu'), url('/fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   --max-width: 1100px;
@@ -93,7 +100,7 @@ body {
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 5%;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu'
   
 }
 

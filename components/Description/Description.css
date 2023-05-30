@@ -1,5 +1,5 @@
 body{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu';
     color: white;
 }
 
@@ -13,5 +13,6 @@ body{
 }
 
 .descriptionContent{
-    font-size: 14px
+    font-size: 14px;
+    font-family: 'Ubuntu', 
 }
