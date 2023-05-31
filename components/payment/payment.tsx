@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../payment/payment.css';
+import './payment.css';
 import { styled } from '@mui/system';
 import { Box } from '@mui/material';
 import { RadioGroup, FormControlLabel, Radio, RadioGroupProps } from '@mui/material';
@@ -70,7 +70,7 @@ const Payment: React.FC = () => {
                             </div>
                             <p>$6.35</p>
                         </div>
-                        <div className='radio'>
+                        <div className='radio radio-1'>
                             <FormControlLabel value="duo" control={<CustomRadio />} label="" sx={{ padding: 0, margin: 0 }} />
                             <div className='label'>
                                 <div className='label-1'>Duo coaching 1h</div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Description/Description.css"
+import "../Description/description.css"
 
 interface CoachProps {
     name: string;

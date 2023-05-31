@@ -56,6 +56,10 @@
     gap: 16px;
     justify-content: center;
     align-items: center;
+    height:77.5px
+}
+.radio-1{
+    height: 96.5px
 }
 
 .div-1 {
