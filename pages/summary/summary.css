@@ -1,22 +1,30 @@
 body {
     background-color: #1B1E25;
-    margin-left: 12%;
-    margin-right: 15%;
     margin-top: 5%;
     font-family: "Ubuntu";
 }
-
-.container{
-    display: flex;
+.main-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px
 }
 
-.col-1{
+.container {
+    display: flex;
+  
+}
+
+.col-1 {
     display: flex;
     flex-direction: column;
     width: 704px;
 }
 
-.col-2{
+.col-2 {
     display: flex;
     flex-direction: column;
+}
+
+.keep-in-mind {
+    width: 813px
 }

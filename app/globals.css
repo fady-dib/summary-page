@@ -95,14 +95,6 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  background-color: #1B1E25;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 5%;
-  font-family: 'Ubuntu'
-  
-}
 
 a {
   color: inherit;

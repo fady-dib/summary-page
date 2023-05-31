@@ -3,10 +3,13 @@ import "../summary/summary.css"
 import Description from "../../components/Description/Description";
 import Payment from "@/components/payment/payment";
 import Reviews from "@/components/Reviews/reviews";
+import KeepInMind from "@/components/Keep-in-mind/KeepInMind";
 
 const Summary: React.FC = () => {
 
     return (
+        <>
+        <div className="main-container">
         <div className="container">
             <div className="col-1">
                 <img className="div-img" src="/div.png" />
@@ -23,13 +26,18 @@ const Summary: React.FC = () => {
                         "Post game talk"
                     ]}></Description>
                     <Reviews></Reviews>
-
+                    
             </div>
 
             <div className="col-2">
                 <Payment></Payment>
             </div>
         </div>
+        <div className="keep-in-mind">
+        <KeepInMind></KeepInMind>
+        </div>
+        </div>
+        </>
     )
 
 }
