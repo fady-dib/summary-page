@@ -71,12 +71,31 @@ const Payment: React.FC = () => {
                             <p>$6.35</p>
                         </div>
                         <div className='radio'>
-                            <FormControlLabel value="duo" control={<CustomRadio />} label="Duo coaching 1h - $12.71" />
+                            <FormControlLabel value="duo" control={<CustomRadio />} label="" sx={{ padding: 0, margin: 0 }} />
+                            <div className='label'>
+                                <div className='label-1'>Duo coaching 1h</div>
+                                <div className='label-2'>Duo coaching - how to generally play the game in every situation (builds/ru... <span>+more</span></div>
+                            </div>
+                            <p>$12.71</p>
                         </div>
                         <div className='radio'>
-                            <FormControlLabel value="master" control={<CustomRadio />} label="MASTER SUPPORT 4h - $45.54" />
+                            <FormControlLabel value="master" control={<CustomRadio />} label="" sx={{ padding: 0, margin: 0 }}/>
+                            <div className='label'>
+                                <div className='label-1'>MASTER SUPPORT 4h</div>
+                                <div className='label-2'>4h of pre-game discussion (w/ opgg) ,skill,desired rank, Live game commenta... <span>+more</span></div>
+                            </div>
+                            <p>$45.54</p>
                         </div>
                     </RadioGroup>
+                    <button className='buy' type="submit">BUY</button>
+                </div>
+                <div className='div-3'>
+                    <div className='protection'>
+                    For your own protection and for Challengermode to assist in any potential disputes, it's important that you never make any payments outside of the platform.
+                    </div>
+                    <div className='security'>
+                        <img  src="/security.png"></img>
+                    </div>
                 </div>
             </div>
         </div>
