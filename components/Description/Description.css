@@ -1,18 +1,49 @@
-body{
+body {
     font-family: 'Ubuntu';
     color: white;
 }
 
-.description{
+.description {
     font-size: 21px;
     font-weight: 700;
+    margin-top: 31px;
 }
 
-.first{
-    margin-bottom: 25px;
+.first {
+    margin-bottom: 22.19px;
+    margin-top: 26.15px;
 }
 
-.descriptionContent{
+.descriptionContent {
     font-size: 14px;
-    font-family: 'Ubuntu', 
+    font-family: 'Ubuntu';
+    margin-bottom: 42.12px;
+}
+
+.lang {
+    display: flex;
+    gap: 16px
+}
+
+.lang-img {
+    width: 80px;
+    height: 107px;
+    border-radius: 8px;
+    background: rgba(96, 117, 159, 0.15);
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.lang-box{
+    width:165px
+}
+
+.lang-title{
+    font-weight: 500;
+    font-size: 11px;
+    color: #95ACDA;
+    margin-bottom: 8px;
+}
+
+.lang-content{
+    font-size: 14px;
 }

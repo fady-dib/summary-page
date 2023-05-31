@@ -19,7 +19,7 @@ const Summary: React.FC = () => {
                         "Pre-game discussion - skill, desired rank (w/ op.gg)",
                         "Live game commentating",
                         "VOD Review Analysis",
-                        "Post game talk."
+                        "Post game talk"
                     ]}></Description>
 
             </div>
