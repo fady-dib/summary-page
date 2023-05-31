@@ -33,17 +33,64 @@ body {
     box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
-.lang-box{
-    width:165px
+.lang-box {
+    width: 165px
 }
 
-.lang-title{
+.lang-title {
     font-weight: 500;
     font-size: 11px;
     color: #95ACDA;
     margin-bottom: 8px;
 }
 
-.lang-content{
+.lang-content {
     font-size: 14px;
+}
+
+.seller {
+    margin-top: 76px;
+}
+
+.seller-title {
+    font-weight: 700;
+    font-size: 21px;
+    margin-bottom: 16px;
+}
+
+.seller-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+}
+
+.seller-img {
+    width: 56px;
+    height: 56px;
+    border-radius: 56px;
+    margin-right: 8px;
+}
+
+.nickname {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.contact-seller {
+    height: 40px;
+    width: 87px;
+    background: #2F384C;
+    border-radius: 9999px;
+    border: 0px;
+    color: white;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.seller-text{
+    font-size: 14px;
+    margin-top: 16.25px;
 }

@@ -2,6 +2,7 @@ import React from "react";
 import "../summary/summary.css"
 import Description from "../../components/Description/Description";
 import Payment from "@/components/payment/payment";
+import Reviews from "@/components/Reviews/reviews";
 
 const Summary: React.FC = () => {
 
@@ -21,6 +22,7 @@ const Summary: React.FC = () => {
                         "VOD Review Analysis",
                         "Post game talk"
                     ]}></Description>
+                    <Reviews></Reviews>
 
             </div>
 

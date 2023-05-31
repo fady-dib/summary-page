@@ -1,0 +1,46 @@
+.reviews {
+    margin-top: 62.5px;
+}
+
+.reviews-title {
+    margin-bottom: 24.25px;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.review {
+    padding-top: 17px;
+    padding-bottom: 16px;
+    border-top: 1px solid #2F384C;
+
+}
+
+.nickname {
+    margin: 8px 0px
+}
+
+.review-date {
+    font-size: 11px;
+    color: #95ACDA;
+    margin: 0
+}
+
+.review-content {
+    margin-top: 16px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.review-content span{
+    color: #00F9FF;
+}
+
+.showall{
+    color: #00F9FF;
+}
+
+.showall-img{
+    width: 16px;
+height: 16px;
+margin-left: 7px;
+}
